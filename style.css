@@ -1,0 +1,106 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: linear-gradient(to right, #e3f2fd, #fce4ec);
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Form Styling */
+form {
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #388E3C;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 🎨 Colored Student Details */
+td:nth-child(1) { /* Name column */
+  color: #2e7d32; /* Green */
+  font-weight: bold;
+}
+
+td:nth-child(2) { /* Roll Number column */
+  color: #d32f2f; /* Red */
+  font-weight: bold;
+}
+
+td:nth-child(3) { /* Course column */
+  color: #1976d2; /* Blue */
+  font-weight: bold;
+}
+
+/* Action Buttons */
+td button {
+  margin: 2px;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+td button:first-child {
+  background: #f39c12; /* Edit button */
+}
+
+td button:first-child:hover {
+  background: #e67e22;
+}
+
+td button:last-child {
+  background: #e74c3c; /* Delete button */
+}
+
+td button:last-child:hover {
+  background: #c0392b;
+}
